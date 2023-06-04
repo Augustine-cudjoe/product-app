@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> Registration form</title>
+    </head>
+    <body>
+        <a href="../index.html">Back</a>
+        <form method="post">
+            <table>
+                <tr>
+                    <td>Name:</td>
+                    <td><input type="text" name="re_name" required></td>
+                </tr>
+                <tr>
+                    <td>Email:</td>
+                    <td><input type="email" name="re_emai" required></td>
+                </tr>
+                <tr>
+                    <td>Phone:</td>
+                    <td><input type="tel" name="re_phone" required></td>
+                </tr>
+                <tr>
+                    <td>DOB:</td>
+                    <td><input type="date" name="re_birth" required></td>
+                </tr>
+                <tr>
+                    <td>Gender</td>
+                    <td><input type="radio" name="re_ngender" value="male" >Male <br>
+                        <input type="radio"  name="re_ngender" value="female">Female
+                    </td>
+                </tr><br>
+                <tr>
+                    <td>Country:</td>
+                    <td>
+                        <select name="country" required>
+                            <option value="Ghana">Ghana </option>
+                            <option value="Poland">Poland </option>
+                            <option value="USA">USA </option>
+                            <option value="Nigeria">Nigeria </option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    
+                    <td><input type="submit" name="re_send" value="register"></td>
+                </tr>
+            </table>
+        </form>
+    </body>
+</html>
